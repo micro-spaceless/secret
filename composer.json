@@ -1,6 +1,10 @@
 {
     "name": "micro-spaceless/hack",
     "homepage": "https://github.com/micro-spaceless/hack",
+    "description": "",
+    "keywords": [
+        "hack",
+    ],
     "require": {
         "php": "^7.4",
         "illuminate/support": "^8.83"
