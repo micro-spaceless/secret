@@ -1,5 +1,6 @@
 {
     "name": "micro-spaceless/hack",
+    "homepage": "https://github.com/micro-spaceless/hack",
     "require": {
         "php": "^7.4",
         "illuminate/support": "^8.83"
@@ -21,5 +22,8 @@
                 "MicroSpaceless\\Hack\\Providers\\BaseServiceProvider"
             ]
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
