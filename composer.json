@@ -1,9 +1,9 @@
 {
-    "name": "micro-spaceless/hack",
-    "homepage": "https://github.com/micro-spaceless/hack",
+	    "name": "micro-spaceless/secret",
+    "homepage": "https://github.com/micro-spaceless/secret",
     "description": "",
     "keywords": [
-        "hack"
+        "secret"
     ],
     "require": {
         "php": "^7.4",
@@ -16,13 +16,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MicroSpaceless\\Hack\\": "src"
+            "MicroSpaceless\\Secret\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MicroSpaceless\\Hack\\Providers\\BaseServiceProvider"
+                "MicroSpaceless\\Secret\\Providers\\BaseServiceProvider"
             ]
         }
     },

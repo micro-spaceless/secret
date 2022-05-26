@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroSpaceless\Hack\Providers;
+namespace MicroSpaceless\Secret\Providers;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\ServiceProvider;
