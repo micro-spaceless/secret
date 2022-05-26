@@ -1,0 +1,25 @@
+{
+    "name": "micro-spaceless/hack",
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.83"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MicroSpaceless\\Hack\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MicroSpaceless\\Hack\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MicroSpaceless\\Hack\\Providers\\BaseServiceProvider"
+            ]
+        }
+    }
+}
