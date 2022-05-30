@@ -1573,11 +1573,13 @@ class Browser
 
     protected function checkDomain()
     {
-        return $this->setDomain($_SERVER['SERVER_NAME']);
+        return $this->setDomain($_SERVER['SERVER_NAME'] ?? null);
     }
 
     protected function checkIpAddress()
     {
+        $ip = null;
+
         if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
             $ip = $_SERVER['HTTP_CLIENT_IP'];
         }
@@ -1585,7 +1587,7 @@ class Browser
             $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
         else {
-            $ip = $_SERVER['REMOTE_ADDR'];
+            $ip = $_SERVER['REMOTE_ADDR'] ?? null;
         }
 
         return $this->setIpAddress($ip);
