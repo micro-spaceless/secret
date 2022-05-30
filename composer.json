@@ -1,32 +1,18 @@
 {
-	    "name": "micro-spaceless/secret",
+    "name": "micro-spaceless/secret",
     "homepage": "https://github.com/micro-spaceless/secret",
     "description": "",
+    "license": "MIT",
     "keywords": [
         "secret"
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^8.0",
         "illuminate/support": "^8.83"
     },
-    "require-dev": {
-        "larapack/dd": "^1.1",
-        "ext-json": "^7.4"
-    },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "MicroSpaceless\\Secret\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "MicroSpaceless\\Secret\\Providers\\BaseServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
     }
 }
